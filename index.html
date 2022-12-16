@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CiTIM Grupo XB</title>
+    <link rel="stylesheet" href="css/problemaStem.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+      rel="stylesheet"
+    />
+    <script src="js/calcularStem.js"></script>
+  </head>
+  <body>
+    <section class="wrapper">
+      <header>
+        <h1 class="logo"><a href="stem.html">CiTIM</a></h1>
+      </header>
+      <section id="contenedor">
+        <section class="problema">
+          <h2>Problema: Cálcular la Densidad de Urano</h2>
+          <p>Descripción:</p>
+          <p>
+            Determina la densidad de Urano si su masa es 14 veces la de la
+            Tierra y su radio es 4 veces el radio de la Tierra, siendo la masa
+            de la Tierra de 5·97 ×1024 kg y su radio 6 378 km. (pp 58)
+            <br />
+          </p>
+        </section>
+        <section class="esquemaProblema">
+          <h2>Esquema</h2>
+          <center>
+            <img class="imgProblema" src="images/problema.png" />
+          </center>
+        </section>
+        <section class="formulas">
+          <h2>Fórmulas</h2>
+          D = Mu/Vu Mu = 14*Mtierra Ru=4*Rtierra Vu=(4/3)*Pi*Ru*Ru*Ru<br />
+        </section>
+        <section class="datos">
+          <h2>Datos:</h2>
+          Mtierra=5.97E24 Kg Rtierra = 6378 Km <br />
+        </section>
+        <section class="calculos">
+          <h2>Solución</h2>
+          <p>
+            a)La densidad de la Tierra es:<br />
+            masa = e 5·97 ×1024 kg <br />
+            radio= 6 378 km. (pp 58)
+          </p>
+          <button onclick="calcula_densidad();">Presiona para calcular</button>
+        </section>
+        <section class="resultado">
+          <h2>Resultado:</h2>
+          <div id="resultadoA"></div>
+        </section>
+      </section>
+      <footer class="pie">Yael salvador Cazares Carrillo</footer>
+    </section>
+  </body>
+</html>
